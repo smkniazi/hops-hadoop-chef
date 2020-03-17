@@ -229,7 +229,7 @@ default['hops']['schema_dir']               = "#{node['hops']['root_url']}/hops-
 
 default['hops']['log_level']                = "DEBUG"
 
-default['hops']['ndb']['version']              = "7.6.12"
+default['hops']['ndb']['version']              = "8.0.19"
 
 if node['hops']['ndb']['version'] != ""
   node.override['ndb']['version'] = node['hops']['ndb']['version']
