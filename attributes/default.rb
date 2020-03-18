@@ -434,7 +434,7 @@ default['hops']['capacity']['queue_mapping_override']['enable']         = "false
 #
 # Flyway - Database upgrades
 #
-default['hops']['flyway']['version']                                    = "5.0.3"
+default['hops']['flyway']['version']                                    = "6.3.1"
 default['hops']['flyway_url']                                           = node['hops']['root_url'] + "/flyway-commandline-#{node['hops']['flyway']['version']}-linux-x64.tar.gz"
 
 #GPU
